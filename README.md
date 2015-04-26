@@ -66,3 +66,5 @@ UCI HAR Dataset/train/y_train.txt
 1. This will create two output files: ***tidy_data.txt*** and ***tidy_data_aggregate.txt***.  These two files are the processed datasets.  
    * ***tidy_data.txt*** contains the complete mean and standard deviation dataset for each subject performing each activity.  
    * ***tidy_data_aggregate.txt*** is the aggregated mean and standard deviation dataset that breaks the data down for each activity on a per subject basis.
+
+1. The [codebook](CodeBook.md) contains the column name definitions for the project.  Please see that for more information.

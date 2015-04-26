@@ -12,16 +12,20 @@ Running the script `run_analysis.R` will produce two dataset files: ***tidy_data
 
   Please note that the column names for both files are identical
 
+Please see [README.md](README.md) for more information about the project.
+
 ---
 
 ### Code Book
+
+The columns in the tidy_data sets are defined follows.  The mean and standard deviation columns are postfixed with -mean() and -std() respectively.
 
 *** Subject and Activity ***
 
 * subject_id: The subject performing the experiment
 * activity: The activity performed (WALKING, STANDING, etc)
 
-*** Linear Acceleration ***
+*** Real-time Linear Acceleration ***
 * tBodyAcc-mean()-X
 * tBodyAcc-mean()-Y
 * tBodyAcc-mean()-Z
@@ -29,7 +33,7 @@ Running the script `run_analysis.R` will produce two dataset files: ***tidy_data
 * tBodyAcc-std()-Y
 * tBodyAcc-std()-Z
 
-*** Angular Acceleration ***
+*** Real-time Angular Acceleration ***
 * tGravityAcc-mean()-X
 * tGravityAcc-mean()-Y
 * tGravityAcc-mean()-Z
@@ -37,7 +41,7 @@ Running the script `run_analysis.R` will produce two dataset files: ***tidy_data
 * tGravityAcc-std()-Y
 * tGravityAcc-std()-Z
 
-*** Linear Jerk Acceleration ***
+*** Real-time Linear Jerk Acceleration ***
 * tBodyAccJerk-mean()-X
 * tBodyAccJerk-mean()-Y
 * tBodyAccJerk-mean()-Z
@@ -74,6 +78,7 @@ Running the script `run_analysis.R` will produce two dataset files: ***tidy_data
 * tBodyGyroJerkMag-mean()
 * tBodyGyroJerkMag-std()
 
+*** Fast Fourier Transformed Linear Acceleration ***
 * fBodyAcc-mean()-X
 * fBodyAcc-mean()-Y
 * fBodyAcc-mean()-Z
@@ -85,13 +90,14 @@ Running the script `run_analysis.R` will produce two dataset files: ***tidy_data
 * fBodyAcc-meanFreq()-Y
 * fBodyAcc-meanFreq()-Z
 
+*** Fast Fourier Transformed Angular Acceleration ***
 * fBodyAccJerk-mean()-X
 * fBodyAccJerk-mean()-Y
 * fBodyAccJerk-mean()-Z
-
 * fBodyAccJerk-std()-X
 * fBodyAccJerk-std()-Y
 * fBodyAccJerk-std()-Z
+
 * fBodyAccJerk-meanFreq()-X
 * fBodyAccJerk-meanFreq()-Y
 * fBodyAccJerk-meanFreq()-Z
