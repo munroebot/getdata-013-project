@@ -3,7 +3,7 @@
 ### Overview
 This git repository contains the necessary instructions and R script to manipulate and analyze the accelerometer data gathered from the study on [Human Activity Recognition Using Smartphones](http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones).
 
-Per the requirements of the course project, the R script **run_analysis.R** will do the following:
+Per the requirements of the course project, the R script [run_analysis.R](run_analysis.R) will do the following:
 
 1. Merges the training and the test sets to create one data set.
 1. Extracts only the measurements on the mean and standard deviation for each measurement.
